@@ -906,7 +906,7 @@ ikyy.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
 
 
-case 'menu': 
+case 'yyy': 
               
           thu = await ikyy.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
               groups = ikyy.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1296,7 +1296,7 @@ ${petik}│◦➛ Owner :${ownerName}
 wibu = `${botName}`
            ikyy.sendMessage(from, { contentText: `${menu}`, footerText: `${wibu}`, buttons: [{ buttonId: `${prefix}sewabot`, buttonText: { displayText: `⬡ SEWA BOT\n\n_jika bot tidak merespon ketik ${prefix}sewabot_` }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
           break
-case 'yyy': 
+case 'menu': 
               
           thu = await ikyy.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
               groups = ikyy.chats.array.filter(v => v.jid.endsWith('g.us'))
