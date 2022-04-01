@@ -133,7 +133,7 @@ const starts = async (ikyy = new WAConnection()) => {
 
 	ikyy.logger.level = 'warn'
 
-ikyy.version = [2, 2147, 14];
+ikyy.version = [2, 2149, 4]
 
 	console.log(color(figlet.textSync('YT RIFQI BOTZ', {
 
@@ -236,7 +236,7 @@ ikyy.browserDescription = ["RIFQI - BOTZ", "Safari", "3.0.0"];
 
 // send message 
 
-fetch(`http://ip-api.com/line`).then(res => res.text())  
+/**fetch(`http://ip-api.com/line`).then(res => res.text())  
 
         .then(bu =>{
 
@@ -244,7 +244,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 
      console.log(color('|INFO!|', 'yellow'), color('mengirim info bot ke owner', 'cyan'))
 
-   })
+   })**/
 	// session
 
 
